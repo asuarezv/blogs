@@ -3,13 +3,11 @@ html{
 }
 
 .rCuerpo{
-  max-width: 1200px;
   background-color: darkred;
 }
 
 .rEncabezado{
   padding: 5px;
-  display: table;
 }
 
 .Encabezado{
@@ -21,18 +19,21 @@ html{
   flex-direction: column;
 }
 
+.rLogoRedes{
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
 .Logo img{
   height: 90%;
 }
 
 .Redes{
-  display: flex;
-  align-items: flex-end;
-  padding-bottom: 5px;
+text-align: right;
 }
 
 .rMPrincipal{
-  height: 60px;
   border-radius: 5px;
   padding: 5px;
 }
@@ -51,16 +52,11 @@ html{
 }
 
 .menuPrincipal{
-  height: 50px;
   align-items: center;
 }
 
 .menuTopic{
     border-radius: 10px;
-}
-
-.rContenido{
-  height: 500px;
 }
 
 .LIzquierdo{
@@ -72,8 +68,8 @@ html{
 }
 
 .CLI{
-
   border-radius: 10px;
+  background-color: lightgray;
 }
 
 .LDerecho{
@@ -82,19 +78,19 @@ html{
 
 .rCLD{
   padding: 5px;
+
 }
 
 .CLD{
-  background-color: lightgray;
   border-radius: 10px;
   padding-top: 10px;
+  background-color: lightgray;
 }
 
 .rInfo{
   padding: 5px;
   display: flex;
   align-items: center;
-  background-color: lightgray;
   border-radius: 10px;
 }
 
@@ -103,10 +99,8 @@ html{
 }
 
 .rComentario{
-  padding: 5px;
   display: flex;
   align-items: center;
-  background-color: lightgray;
   border-radius: 10px;
 }
 
@@ -130,8 +124,12 @@ html{
 .left-addon input  { padding-left:  30px; }
 .right-addon input { padding-right: 30px; }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   /* Clase para ocultar componentes HTML */
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
   .LDerecho{
     display: none;
   }
@@ -142,7 +140,6 @@ html{
   .LDerecho{
     display: none;
   }
-  
   .Redes, .Logo{
     display: block;
     text-align: center;

@@ -1,0 +1,151 @@
+html{
+  background-color: darkred;
+}
+
+.rCuerpo{
+  max-width: 1200px;
+  background-color: darkred;
+}
+
+.rEncabezado{
+  padding: 5px;
+  display: table;
+}
+
+.Encabezado{
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.Logo img{
+  height: 90%;
+}
+
+.Redes{
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 5px;
+}
+
+.rMPrincipal{
+  height: 60px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.MPrincipal{
+  background-color: darkorange;
+  border-radius: 10px;
+}
+
+.menuTopic a:hover{
+  border-radius: 10px;
+}
+
+.menuTopic a:visited{
+  color: black;
+}
+
+.menuPrincipal{
+  height: 50px;
+  align-items: center;
+}
+
+.menuTopic{
+    border-radius: 10px;
+}
+
+.rContenido{
+  height: 500px;
+}
+
+.LIzquierdo{
+  padding-right: 5px;
+}
+
+.rCLI{
+  padding: 5px;
+}
+
+.CLI{
+
+  border-radius: 10px;
+}
+
+.LDerecho{
+  padding-left: 5px;
+}
+
+.rCLD{
+  padding: 5px;
+}
+
+.CLD{
+  background-color: lightgray;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.rInfo{
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.Info2 img{
+  width: 230px;
+}
+
+.rComentario{
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.Comentario1 img{
+  width: 100%;
+}
+
+/* activar posicionamiento absoluto */
+.inner-addon {
+    position: relative;
+}
+
+/* estilo icono */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* Padding */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Clase para ocultar componentes HTML */
+  .LDerecho{
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Clase para ocultar componentes HTML */
+  .LDerecho{
+    display: none;
+  }
+  
+  .Redes, .Logo{
+    display: block;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+}

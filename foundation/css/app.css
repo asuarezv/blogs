@@ -1,0 +1,42 @@
+.e-body{
+  background: url("../img/fondo.jpg") fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.Cuerpo{
+  background-color: rgba(135,135,135,.8);
+  color: black;
+  padding-top: 10px;
+}
+
+.CPL{
+  border-right: 1px solid white;
+}
+
+.Tit{
+  background-color: rgba(0,0,0,.5);
+  color: white;
+}
+
+.cSLI{
+  background-color: lightgray;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.SLD img{
+  width: 100%;
+}
+
+.t1{
+  padding: 0 5px 5px 5px;
+  background-color: lightpink;
+  border-radius: 10px;
+}
+
+.Pie{
+  background-color: rgba(0,0,0,.8);
+  color: white;
+}

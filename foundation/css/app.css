@@ -36,7 +36,7 @@
 
 .t1{
   padding: 0 5px 5px 5px;
-  background-color: rgba(43,166,203,.7);
+  background-color: lightpink;
   border-radius: 10px;
 }
 
@@ -51,4 +51,8 @@
 .comentarioX img{
   height: 50px;
   width: 37px;
+}
+
+#enviar{
+  border: 1px solid black;
 }

@@ -36,11 +36,19 @@
 
 .t1{
   padding: 0 5px 5px 5px;
-  background-color: lightpink;
+  background-color: rgba(43,166,203,.7);
   border-radius: 10px;
 }
 
 .Pie{
   background-color: rgba(0,0,0,.8);
   color: white;
+}
+.historial a:visited{
+  color: black;
+}
+
+.comentarioX img{
+  height: 50px;
+  width: 37px;
 }

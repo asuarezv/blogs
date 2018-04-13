@@ -1,3 +1,10 @@
+.e-body{
+  background: url("../img/fondo.jpg") fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 .barra-superior1{
   height: 6rem;
 }
@@ -10,4 +17,37 @@
   font-style: italic;
   font-weight: bold;
   padding-left: 6rem;
+}
+
+.redes{
+  height: 100px;
+}
+
+
+.bloque1a img, .bloque1b img, .bloque3a img, .bloque3b img{
+  width: 100%;
+}
+
+
+.bloque2 img{
+  width: 100%;
+}
+
+.topic{
+  height: 200px;
+}
+
+.redes img{
+  width: 3rem;
+  padding-top: 1rem;
+}
+
+#topic01{
+  width: 180px;
+}
+
+#autor{
+  height: 175px;
+  width: 175px;
+  padding: 25px;
 }

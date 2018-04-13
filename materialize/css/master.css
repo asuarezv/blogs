@@ -23,7 +23,6 @@
   height: 100px;
 }
 
-
 .bloque1a img, .bloque1b img, .bloque3a img, .bloque3b img{
   width: 100%;
 }
@@ -42,7 +41,7 @@
   padding-top: 1rem;
 }
 
-#topic01{
+#topic01, #topic02{
   width: 180px;
 }
 
